@@ -1,0 +1,6 @@
+message AlStatePushResponse {
+
+    required string userId = 1;
+    required string status = 2;
+    
+}

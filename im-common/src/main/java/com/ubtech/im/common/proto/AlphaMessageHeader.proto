@@ -1,0 +1,8 @@
+message AlphaMessageHeaderResponse {
+
+    required int32 commandId = 1;
+    required string versionCode = 2;
+    required int64 sendSerial = 3;
+    required int64 responseSerial = 4;
+
+}

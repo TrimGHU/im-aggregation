@@ -1,0 +1,8 @@
+import "AlphaMessageHeader.proto";
+
+message AlphaMessageResponse {
+
+    required AlphaMessageHeaderResponse header = 1;
+    required bytes bodyData = 2;
+
+}
